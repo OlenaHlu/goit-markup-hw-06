@@ -48,6 +48,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 /*==========MOBILE STYLES==========*/
@@ -84,6 +85,8 @@ img {
 }
 
 .header-container {
+  padding-top: 17px;
+  padding-bottom: 17px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -98,8 +101,6 @@ img {
   }
 
   .header-content {
-    padding-top: 16px;
-    padding-bottom: 16px;
     border-bottom: 1px solid #e7e9fc;
   }
 
@@ -213,9 +214,13 @@ img {
 
 /*==Mobile 1st Section==*/
 
+.section-one-container {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
 .solutions {
   background: #2e2f42;
-  padding: 188px 0;
+
   display: flex;
   margin-top: 0;
   background-size: cover;
@@ -852,6 +857,10 @@ img {
     display: none;
   }
 
+  .header-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .header-content {
     border-bottom: 1px solid #e7e9fc;
   }
@@ -927,6 +936,11 @@ img {
   /*==/Tablet header==*/
 
   /*==Tablet 1st Section==*/
+
+  .section-one-container {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
 
   .solutions {
     background-image: linear-gradient(
@@ -1098,6 +1112,10 @@ img {
   /*==/Desktop Header==*/
 
   /*==Desktop 1st Section==*/
+  .section-one-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
 
   .solutions {
     background-image: linear-gradient(
@@ -1132,6 +1150,10 @@ img {
 
   /*==Desktop 2nd Section==*/
 
+  .container-second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .direction-pictures {
     display: flex;
     align-items: center;
@@ -1175,6 +1197,8 @@ img {
   /*==Desktop 3d Section==*/
   .team-container {
     width: 1158px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .team-card {
@@ -1204,6 +1228,8 @@ img {
 
   .portfolio {
     width: 1158px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .img-portfolio {
@@ -1260,8 +1286,8 @@ img {
 
   .footer-box {
     width: 1158px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 101px;
+    padding-bottom: auto;
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
